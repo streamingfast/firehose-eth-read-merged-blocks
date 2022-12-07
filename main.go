@@ -60,8 +60,12 @@ func printBlocksFromFile(ctx context.Context, store dstore.Store, path string) e
 			fmt.Println(string(asJson))
 		}
 
-		if err == io.EOF {
-			break
+		if err != nil {
+			if err == io.EOF {
+				break
+			}
+
+			return fmt.Errorf("reading block: %w", err)
 		}
 	}
 
