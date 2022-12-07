@@ -3,6 +3,13 @@ module github.com/streamingfast/firehose-eth-read-merged-blocks
 go 1.19
 
 require (
+	github.com/streamingfast/bstream v0.0.2-0.20221017131819-2a7e38be1047
+	github.com/streamingfast/cli v0.0.4-0.20220630165922-bc58c6666fc8
+	github.com/streamingfast/dstore v0.1.1-0.20221206141230-6d7bdda8687f
+	github.com/streamingfast/firehose-ethereum/types v0.0.0-20221206142931-00279085beef
+)
+
+require (
 	cloud.google.com/go v0.102.1 // indirect
 	cloud.google.com/go/compute v1.7.0 // indirect
 	cloud.google.com/go/iam v0.3.0 // indirect
@@ -53,14 +60,10 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.7.0 // indirect
 	github.com/streamingfast/atm v0.0.0-20220131151839-18c87005e680 // indirect
-	github.com/streamingfast/bstream v0.0.2-0.20221017131819-2a7e38be1047 // indirect
-	github.com/streamingfast/cli v0.0.4-0.20220630165922-bc58c6666fc8 // indirect
 	github.com/streamingfast/dbin v0.0.0-20210809205249-73d5eca35dc5 // indirect
 	github.com/streamingfast/dgrpc v0.0.0-20220909121013-162e9305bbfc // indirect
 	github.com/streamingfast/dmetrics v0.0.0-20210811180524-8494aeb34447 // indirect
-	github.com/streamingfast/dstore v0.1.1-0.20221206141230-6d7bdda8687f // indirect
 	github.com/streamingfast/eth-go v0.0.0-20220421042603-ebe2c94fcc92 // indirect
-	github.com/streamingfast/firehose-ethereum/types v0.0.0-20221206142931-00279085beef // indirect
 	github.com/streamingfast/jsonpb v0.0.0-20210811021341-3670f0aa02d0 // indirect
 	github.com/streamingfast/logging v0.0.0-20220304214715-bc750a74b424 // indirect
 	github.com/streamingfast/opaque v0.0.0-20210811180740-0c01d37ea308 // indirect
