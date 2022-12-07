@@ -11,11 +11,11 @@ import (
 	// chain specific global configuration for bstream for proper decoding of project. If
 	// this import is missing, you will hit quite a few weird errors
 	_ "github.com/streamingfast/firehose-ethereum/types"
-	pbeth "github.com/streamingfast/firehose-ethereum/types/pb/sf/ethereum/type/v2"
 
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/cli"
 	"github.com/streamingfast/dstore"
+	pbeth "github.com/streamingfast/firehose-ethereum/types/pb/sf/ethereum/type/v2"
 )
 
 func main() {
